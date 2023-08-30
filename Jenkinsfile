@@ -1,8 +1,8 @@
 pipeline {
   agent any
   triggers {
-		pollSCM("* * * * *")
-	}
+    pollSCM("* * * * *")
+  }
   stages {
     stage('Hello') {
       steps {
